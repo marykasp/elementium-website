@@ -9,6 +9,7 @@ import {
   CallToAction,
   CardDeal,
   Widgets,
+  Footer,
 } from "./components";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Testimonials />
           <Clients />
           <CallToAction />
+          <Footer />
         </div>
       </div>
     </div>

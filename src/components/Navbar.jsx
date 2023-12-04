@@ -11,8 +11,8 @@ const Navbar = () => {
       <div className="flex items-baseline">
         <h1 className="text-2xl font-poppins font-bold text-secondary">
           Element<span className="text-white">ium</span>
+          <span className="text-secondary text-5xl">.</span>
         </h1>
-        <span className="text-blue-400 text-5xl">.</span>
       </div>
       <ul className="list-none sm:flex hidden justify-between gap-10 items-center ">
         {navLinks.map((nav, index) => (
