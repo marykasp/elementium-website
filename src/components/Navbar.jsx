@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* <img src={logo} alt="elementium" className="w-[124px] h-[32px]" /> */}
       <div className="flex items-baseline">
-        <h1 className="text-2xl font-poppins font-bold text-blue-400">
+        <h1 className="text-2xl font-poppins font-bold text-secondary">
           Element<span className="text-white">ium</span>
         </h1>
         <span className="text-blue-400 text-5xl">.</span>
