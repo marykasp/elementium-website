@@ -7,7 +7,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="elementium" className="w-[124px] h-[32px]" />
+      {/* <img src={logo} alt="elementium" className="w-[124px] h-[32px]" /> */}
+      <div className="flex items-baseline">
+        <h1 className="text-2xl font-poppins font-bold text-blue-400">
+          Element<span className="text-white">ium</span>
+        </h1>
+        <span className="text-blue-400 text-5xl">.</span>
+      </div>
       <ul className="list-none sm:flex hidden justify-between gap-10 items-center ">
         {navLinks.map((nav, index) => (
           <li
