@@ -36,6 +36,23 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      <div className="flex w-full justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
+        <p className="font-normal text-center font-poppins text-white text-[14px] leading-[20px]">
+          2023 Elementium. All Rights Reserved
+        </p>
+        <div className="flex md:mt-0 mt-6">
+          {socialMedia.map((social, idx) => (
+            <img
+              src={social.icon}
+              alt={social.id}
+              key={social.id}
+              className={`w-[21px] h-[21px] cursor-pointer object-contain ${
+                idx !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
+            />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
