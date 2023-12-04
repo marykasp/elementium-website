@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Design Tokens",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our design system boasts an extensive collection of meticulously curated design tokens, offering a unified language for colors, typography, spacing, and more.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Seamless Integration",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Easily accessible assets, code snippets, and version control support a smooth transition from design to development, fostering a cohesive workflow.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Robust Documentation",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Clear instructions, usage examples, and best practices empower teams to effectively leverage the design system, fostering a unified approach to design and development.",
   },
 ];
 
