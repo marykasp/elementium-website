@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
             Uniting Design
             <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Elements</span>
+            <span className="text-secondary">Elements</span>
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -38,7 +38,7 @@ const Hero = () => {
         </p>
       </div>
       {/* right side with cover image */}
-      <div className={`flex-2 ${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
           src={cover}
           alt="elementium cover"

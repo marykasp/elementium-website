@@ -35,10 +35,11 @@ function App() {
           <Stats />
           <Business />
           <Widgets />
+          <CardDeal />
+
           <Testimonials />
           <Clients />
           <CallToAction />
-          <CardDeal />
         </div>
       </div>
     </div>

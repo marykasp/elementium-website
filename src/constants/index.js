@@ -62,7 +62,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Elementium is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "As a developer, Elementium has been a lifesaver. The well-documented guidelines and easily accessible assets made implementation a breeze. The extensible components reduced development time significantly, and the consistency across projects improved our brand's visual identity. Highly recommended for anyone looking to harmonize design and development.",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -78,7 +78,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Elementium's widgets for data visualization are unparalleled. They took our charts and graphs to the next level, presenting complex data in an easily digestible format. The stat widgets helped us communicate insights effectively, elevating our presentations and reports.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -88,12 +88,12 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Active Users",
-    value: "800+",
+    title: "Reusable Components",
+    value: "300+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Color Tokens",
     value: "10+",
   },
   {

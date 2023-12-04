@@ -26,8 +26,10 @@ import people03 from "./people03.png";
 import cover from "./elementiumcover.png";
 import mobileui from "./elementium1.png";
 import widgets from "./Widgets.png";
+import cards from "./cards.png";
 
 export {
+  cards,
   widgets,
   cover,
   mobileui,

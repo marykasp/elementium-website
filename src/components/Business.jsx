@@ -46,7 +46,7 @@ const Business = () => {
           workflow and amplify your creative potential. Explore how our design
           system empowers innovation and transforms the way you build
         </p>
-        <Button styles="mt-10" />
+        <Button styles="mt-10">Get Started</Button>
       </div>
       {/* feature card list */}
       <div className={`flex-col ${layout.sectionImg}`}>
