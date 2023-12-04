@@ -23,9 +23,9 @@ const Hero = () => {
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Elements</span>
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+          {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
-          </div>
+          </div> */}
         </div>
         <h2 className="font-semibold font-poppins ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
           Seamlessly.

@@ -25,8 +25,10 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import cover from "./elementiumcover.png";
 import mobileui from "./elementium1.png";
+import widgets from "./Widgets.png";
 
 export {
+  widgets,
   cover,
   mobileui,
   airbnb,

@@ -5,10 +5,10 @@ import {
   Stats,
   Testimonials,
   Clients,
-  Billing,
   Business,
   CallToAction,
   CardDeal,
+  Widgets,
 } from "./components";
 
 function App() {
@@ -34,8 +34,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
-
-          <Billing />
+          <Widgets />
           <Testimonials />
           <Clients />
           <CallToAction />
